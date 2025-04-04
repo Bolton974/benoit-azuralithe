@@ -91,6 +91,73 @@ img {
 }
 
 
+/* Blog section styles */
+
+#blog article {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#blog article:hover {
+    background-color: #f0f8ff;
+}
+
+#blog h3 {
+    font-size: 1.6rem;
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+#blog p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#blog a {
+    color: #023e8a;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#blog a:hover {
+    color: #48cae4;
+}
+
+
+/* Care section styles */
+
+#care {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#care h2 {
+    font-size: 1.8rem;
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+#care p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#care ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#care ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
 /* Footer styles */
 
 footer {
@@ -131,6 +198,9 @@ footer p {
     footer p {
         font-size: 0.9rem;
     }
+    #blog article {
+        padding: 15px;
+    }
 }
 
 
@@ -159,11 +229,21 @@ footer p {
     footer p {
         font-size: 0.8rem;
     }
+    #blog article {
+        padding: 10px;
+    }
 }
 
 
 /* Additional styling for images in the sections */
 
 section img {
+    margin-bottom: 20px;
+}
+
+#blog img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
     margin-bottom: 20px;
 }
